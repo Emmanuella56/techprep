@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.click:active{
+     color: rgb(10, 141, 141);
+}
+
+
+@layer base {
+     @font-face {
+          font-family: "open-sans";
+          src: local("open-sans") url("fonts/open-sans/OpenSans-Semibold.ttf") format("truetype");
+     }
+}
+
+
+@layer base{
+     @font-face {
+          font-family: "playfair-display";
+          src: local("playfair-display") url("fonts/playfair-display/PlayfairDisplay-Regular.ttf") format("truetype");
+     }
+}
