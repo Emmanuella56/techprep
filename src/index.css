@@ -1,9 +1,21 @@
 @import "tailwindcss";
 
 .click:active{
-     color: rgb(10, 141, 141);
+     color: rgb(4, 83, 83);
 }
 
+.click:hover{
+     color: rgb(10, 141, 141);;
+}
+
+.nav{
+     background-color: rgba(255, 255, 255, 0.534)
+}
+
+.bg-linear-gradient{
+     background-image: linear-gradient(to bottom, rgb(10, 141, 141), black, black);
+
+}
 
 @layer base {
      @font-face {
